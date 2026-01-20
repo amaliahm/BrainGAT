@@ -1,6 +1,6 @@
 # 🧠 BrainGAT
 
-Graph Attention Network Approach for Multi-Class Brain Tumor Segmentation, a research project exploring the use of Graph Attention Networks (GATs) for multi-class brain tumor segmentation using MRI images. It is based on the paper *“Multi-class Brain Tumor Segmentation using Graph Attention Network”* and leverages the Brain Tumor MRI Dataset from Kaggle.
+Graph Attention Network Approach for Multi-Class Brain Tumor Classification, a research project exploring the use of Graph Attention Networks (GATs) for multi-class brain tumor classification using MRI images. It is based on the paper *“Multi-class Brain Tumor Segmentation using Graph Attention Network”* and leverages the Brain Tumor MRI Dataset from Kaggle.
 
 ---
 
@@ -19,11 +19,11 @@ Graph Attention Network Approach for Multi-Class Brain Tumor Segmentation, a res
 
 ### 🧩 Overview
 
-> Brain tumor segmentation is a critical task in medical image analysis. Traditional CNNs fail to capture long-range spatial dependencies. This project investigates how Graph Attention Networks (GATs) can represent pixel/region relationships as a graph to enhance segmentation performance.
+> Brain tumor classification is a critical task in medical image analysis. Traditional CNNs fail to capture long-range spatial dependencies. This project investigates how Graph Attention Networks (GATs) can represent pixel/region relationships as a graph to enhance segmentation performance.
 
 ---
 
-#### 📊 Dataset 
+### 📊 Dataset 
 
 **Dataset:** [Brain Tumor MRI Dataset (Kaggle)](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset).
 
@@ -39,20 +39,22 @@ Preprocessing steps: resizing, normalization, graph construction from pixel regi
 
 ---
 
-#### 🧠 Model Architecture
+### 🧠 Model Architecture
 
 ---
 
-#### 💻 Implementation
+### 💻 Implementation
 
 ---
 
-#### 📈 Results
+### 📈 Results
 
 ---
 
-#### 🔬 References
+### 🔬 References
 
 > * Original paper: *“Multi-class Brain Tumor Segmentation using Graph Attention Network”*
 > * Dataset: *Brain MRI Images Dataset – Kaggle*
 > * Framework: *PyTorch Geometric Documentation*
+
+
